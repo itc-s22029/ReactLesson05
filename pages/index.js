@@ -19,6 +19,7 @@ export default function Home() {
           <p>
             Get started by editing&nbsp;
 	    s22021 m.miygai
+	    s22001 m.miygai
           </p>
           <div>
             <a
