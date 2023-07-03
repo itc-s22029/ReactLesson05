@@ -18,7 +18,7 @@ export default function Home() {
         <div className={styles.description}>
           <p>
             Get started by editing&nbsp;
-	    s22029 m.miygai
+	    s22001 m.miygai
           </p>
           <div>
             <a
