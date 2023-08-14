@@ -1,19 +1,16 @@
-import Header from 'components/header'
+import Container from 'components/container'
 import Hero from 'components/hero'
-import Footer from 'components/footer'
 
 function Home() {
 	return (
-		<>
-			<Header />
-
-			<main>
-				<Hero />
-			</main
-    
-      </Footer>
-    </>
-    )
+		<Container>
+			<Hero
+				title="献立"
+				button1="ランダム"
+				link1="URL"
+		/>
+		</Container>
+	)
 }
     
 export default Home
