@@ -1,9 +1,12 @@
+import Container from 'components/container'
 import Logo from 'components/logo'
 
 function Header() {
 	return (
 		<header>
-			<Logo boxOn />
+			<Container large>
+				<Logo boxOn />
+			</Container>
 		</header>
 	)
 }
