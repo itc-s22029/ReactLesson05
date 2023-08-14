@@ -9,10 +9,11 @@ function Home() {
 
 			<main>
 				<Hero />
-			</main>
-
-			<Footer />
-		</>
-	)
+			</main
+    
+      </Footer>
+    </>
+    )
 }
-export default Home 
+    
+export default Home
