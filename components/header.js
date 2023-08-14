@@ -1,5 +1,11 @@
+import Logo from 'components/logo'
+
 function Header() {
-	return 
-		<header>Team-b</header>
+	return (
+		<header>
+			<Logo />
+		</header>
+	)
 }
+
 export default Header
