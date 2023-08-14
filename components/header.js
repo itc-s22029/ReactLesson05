@@ -3,7 +3,7 @@ import Logo from 'components/logo'
 function Header() {
 	return (
 		<header>
-			<Logo />
+			<Logo boxOn />
 		</header>
 	)
 }
