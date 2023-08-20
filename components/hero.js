@@ -7,7 +7,6 @@ function Hero({title, button1, link1, imageOn = false}){
 				<h1 className={styles.title}>{title}</h1>
 				<div className={styles.center}>
 					<p className={styles.button1}>{button1}</p>
-					<p className={styles.link1}>{link1}</p>
 				</div>
 			</div>
 		</div>
