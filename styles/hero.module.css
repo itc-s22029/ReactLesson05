@@ -19,12 +19,7 @@
 	letter-spacing: 0.15em;
 }
 
-.button1 {
-	margin-top: 8rem;
-	font-size: var(--small-heading2);
-	align-items: center;
-}
 .link1 {
-	margin-top: 4rem;
+	margin: 4rem;
 	font-size: var(--small-heading2);
 }

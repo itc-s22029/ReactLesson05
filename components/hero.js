@@ -1,14 +1,10 @@
 import styles from 'styles/hero.module.css'
+import Image from 'next/image'
+import home from 'images/home.jpg'
 
-function Hero({title, button1, link1, imageOn = false}){
+function Hero({title, link1, imageOn = false}){
 	return (
 		<div className={styles.flexContainer}>
-			<div className={styles.text}>
-				<h1 className={styles.title}>{title}</h1>
-				<div className={styles.center}>
-					<p className={styles.button1}>{button1}</p>
-				</div>
-			</div>
 		</div>
 	)
 }
