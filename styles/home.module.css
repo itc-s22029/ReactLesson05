@@ -1,0 +1,32 @@
+.flexContainer {
+	composes: sideBySide from 'styles/utils.module.css'; 
+}
+.button{
+	margin: 1rem 0 4rem 0;
+	text-align: center;
+	align-items:center;
+  position: relative;
+    /*ボタンの形状*/
+  border: 1px solid #555;
+  border-radius:25px;
+  min-width:210px;
+  padding: 20px;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  outline: none;
+    /*アニメーションの指定*/
+  transition: all .2s;
+}
+.button:hover{
+  background: #d66a35;
+  color:#fff;
+}
+
+.button a{
+  padding: 1rem 0rem;
+  font-size: 1rem;
+  align-items: center;
+}
+
